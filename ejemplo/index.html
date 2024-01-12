@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- este es el icono de la pagina -->
+    <link rel="shortcut icon"
+        href="data:image/png;base64,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">
+    <!-- este es el titulo -->
+    <title>MI pagina</title>
+</head>
+
+<body>
+
+    <h1>Fernando</h1>
+
+    <ul>
+        <li>
+            <h3>Hola</h3>
+        </li>
+
+        <ul>
+            <li>dato1</li>
+            <li>dato2</li>
+        </ul>
+        <li>
+            <h3>Hola</h3>
+        </li>
+        <ul>
+            <li>dato3</li>
+            <li>dato4</li>
+        </ul>
+        <li>
+            <h3>Hola</h3>
+        </li>
+        <ul>
+            <li>dato5</li>
+            <li>dato6</li>
+        </ul>
+    </ul>
+
+    <h2>Emanuel</h2>
+    <h3>Peralta</h3>
+
+    <p>Estamos progamando</p>
+
+    <dl>
+        <dt>Beast of Bodmin</dt>
+        <dd>A large feline inhabiting Bodmin Moor.</dd>
+
+        <dt>Morgawr</dt>
+        <dd>A sea serpent.</dd>
+
+        <dt>Owlman</dt>
+        <dd>A giant owl-like creature.</dd>
+    </dl>
+
+    <!-- TABLA -->
+    <table border="1 solid" cellpadding="10px" cellspacing="10px">
+        <!-- TR es Table Row (fila) -->
+        <tr>
+            <th>Cosas</th>
+            <th>Nombres</th>
+            <th>Paises</th>
+            <th>Animales</th>
+        </tr>
+        <tr>
+            <td>Mesa</td>
+            <td>Mariano</td>
+            <td>Madacascar</td>
+            <td>Mariposa</td>
+        </tr>
+        <td>Fierro</td>
+    </table>
+
+
+
+
+    <h3>Ingrese nombre y apellido</h3>
+
+    <!-- FORMULARIO -->
+    <form>
+
+        <fieldset>
+            <legend>Datos Personales</legend>
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" placeholder="Ej. Fernando">
+            <label for="surname">*Apellido</label>
+            <input type="text" id="surname" placeholder="Ej. Peralta" required>
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password">
+        </fieldset>
+
+        <fieldset>
+            <legend>Documento</legend>
+            <label for="Passport">Passport</label>
+            <input type="checkbox" name="documento" id="Passport">
+            <label for="dni">dni</label>
+            <input type="checkbox" name="documento" id="dni">
+            <label for="cpi">cpi</label>
+            <input type="checkbox" name="documento" id="cpi">
+
+            <label for="Passport1">Passport</label>
+            <input type="radio" name="documento" id="Passport1">
+            <label for="dni1">dni</label>
+            <input type="radio" name="documento" id="dni1">
+            <label for="cpi1">cpi</label>
+            <input type="radio" name="documento" id="cpi1">
+        </fieldset>
+
+
+
+        <label for="cpi1">Manda tu consulta</label>
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+
+        <label for="pais"></label>
+        <select name="pais" id="pais">
+            <option value="Argentina">Argentina</option>
+            <option value="Brasil">Brasil</option>
+            <option value="Rumania" selected>Rumania</option>
+        </select>
+
+
+
+        <input type="submit" value="Mandar">
+        <input type="reset" value="Limpiar">
+        <a href="#nombre"><input type="button" value="No hace nada" ondblclick="console.log('hola')"></a>
+    </form>
+
+
+    <!-- ETIQUETAS MULTIMEDIA -->
+
+    <img src="https://www.adslzone.net/app/uploads-adslzone.net/2019/04/borrar-fondo-imagen.jpg"
+        alt="imagen de Mario saltando">
+
+    <iframe src="https://www.minijuegos.com/juego/super-mario-bros" frameborder="0" width="1600px"
+        height="600px"></iframe>
+
+    <!-- Esto es un comentario, como se hace? Ctrl + K y luego Ctrl + C. Y para descomentar Ctrl + K y luego Ctrl + U -->
+
+    <!-- esto es un comentario
+    multilinea -->
+
+    <!-- semanticas
+    
+    <header></header>
+    <main></main>
+    <footer></footer>
+
+    dentro de Header
+
+    <nav></nav>
+
+    dentro de MAIN
+
+    <section></section>
+
+    dentro de las secciones
+
+    <article></article> -->
+
+
+</body>
+
+</html>
