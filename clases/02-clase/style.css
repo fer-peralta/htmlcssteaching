@@ -1,0 +1,71 @@
+/* RESET DE CSS PARA TODOS LOS ELEMENTOS */
+* {
+    Margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+/* PONGO POR DEFECTO ESTA FUENTE */
+html {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* ----------------------- */
+
+body {
+    background-color: #cccccc;
+}
+
+h1 {
+    font-weight: 100;
+    text-decoration: underline;
+    color: rgb(64, 151, 151);
+}
+
+h2 {
+    /* ACA APLICO LA FUENTE QUE ME TRAJE DE GOOGLE */
+    font-family: 'Roboto', sans-serif;
+    text-decoration: underline;
+    color: blueviolet;
+}
+
+p {
+    background-color: #e8c2c2;
+    font-size: 15px;
+}
+
+.parrafos-especiales {
+    color: crimson;
+}
+
+/* Este no se aplica la herencia porque el P tiene el mismo atributo definido */
+div {
+    font-size: 50px;
+}
+
+div p {
+    background-color: rgb(165, 215, 165);
+}
+
+p#super-parrafo {
+    text-align: right;
+}
+
+p.parrafos-especiales {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h2.parrafos-especiales {
+    font-size: 36px;
+}
+
+.super-titulos {
+    text-align: center;
+}
