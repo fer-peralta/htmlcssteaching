@@ -39,6 +39,8 @@ h2 {
 p {
     background-color: #e8c2c2;
     font-size: 15px;
+    padding: 10px;
+    border: 2px solid;
 }
 
 .parrafos-especiales {
@@ -52,6 +54,9 @@ div {
 
 div p {
     background-color: rgb(165, 215, 165);
+    margin: auto;
+    width: 25%;
+    height: 300px;
 }
 
 p#super-parrafo {
@@ -59,11 +64,13 @@ p#super-parrafo {
 }
 
 p.parrafos-especiales {
+    margin-top: 50px;
     font-family: 'Courier New', Courier, monospace;
 }
 
 h2.parrafos-especiales {
     font-size: 36px;
+    margin-top: 50px;
 }
 
 .super-titulos {
