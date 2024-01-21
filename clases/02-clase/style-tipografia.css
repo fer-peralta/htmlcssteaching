@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Grape+Nuts&display=swap');
+
+h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+p.grape {
+    font-family: 'Grape Nuts', cursive;
+    color: #0033ff;
+    line-height: 15px;
+    font-size: 20px;
+    font-weight: 200;
+}
+
+p.otra {
+    font-family: 'Climate Crisis', sans-serif;
+}
+
+li {}
