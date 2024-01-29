@@ -1,0 +1,129 @@
+/* -------------------------------------------------------- */
+/* RESET */
+/* -------------------------------------------------------- */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* -------------------------------------------------------- */
+/* INICIO */
+/* -------------------------------------------------------- */
+
+/* Header */
+
+nav {
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+}
+
+nav ul {
+    background-color: rgb(17, 18, 18);
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+    text-transform: uppercase;
+    z-index: 2;
+    padding: 10px;
+}
+
+nav ul li a {
+    color: rgb(223, 228, 233);
+}
+
+
+/* Main */
+
+.hero-title {
+    z-index: 2;
+    position: absolute;
+    left: 150px;
+    display: inline-block;
+    color: rgb(228, 233, 238);
+}
+
+h1.hero-title {
+    top: 100px;
+    font-size: 3rem;
+}
+
+h2.hero-title {
+    top: 200px;
+    height: 210px;
+    width: 500px;
+}
+
+.hero-image {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+section {
+    text-align: center;
+    margin-top: 30px;
+}
+
+section article {
+    display: inline-block;
+    width: 25%;
+    margin-left: 20px;
+}
+
+article img {
+    width: 200px;
+    height: 200px;
+}
+
+article h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+/* Footer */
+
+footer {
+    background-color: rgb(17, 18, 18);
+    color: rgb(228, 233, 238);
+    margin-top: 100px;
+}
+
+footer p {
+    text-align: center;
+    padding-top: 10px;
+}
+
+footer div p {
+    display: inline-block;
+}
+
+footer div {
+    width: 200px;
+    display: inline-block;
+    margin-left: 25%;
+}
+
+footer a {
+    color: rgb(228, 233, 238);
+}
