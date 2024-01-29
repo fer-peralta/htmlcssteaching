@@ -1,0 +1,57 @@
+div.primero {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column-reverse;
+    background-color: antiquewhite;
+}
+
+span {
+    font-size: 3rem;
+}
+
+span.tercerhijo {
+    order: -1
+}
+
+div.segundo {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    height: 400px;
+    background-color: aliceblue;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+ul.segundohijo {
+    order: 3;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    list-style: none;
+    font-size: 2rem;
+    margin-left: 10px;
+}
+
+ol li {
+    list-style: decimal;
+    background-color: aquamarine;
+}
+
+ol {
+    display: flex;
+    flex-direction: column;
+}
+
+div.tercero {
+    display: flex;
+    /* shorcut de flexdirection y flexwrap */
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    height: 500px;
+}
