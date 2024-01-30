@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 2rem;
+}
+
+body {
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+}
+
+footer,
+header {
+    background-color: rgb(63, 224, 224);
+    margin: 1px;
+}
+
+nav,
+header,
+footer,
+aside,
+article {
+    padding: 1rem;
+    margin: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    display: flex;
+    flex: 1;
+}
+
+nav {
+    background-color: magenta;
+    flex: 25%;
+}
+
+aside {
+    background-color: rgb(202, 244, 49);
+    flex: 25%;
+}
+
+article {
+    background-color: rgb(128, 205, 233);
+    flex: 50%;
+}
