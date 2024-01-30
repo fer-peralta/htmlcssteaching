@@ -22,8 +22,8 @@
     </header>
     <main>
         <img src="./hero-contact.jpg" alt="imagen de portada relacionada con comunicación" class="hero-image">
-        <h1>Contactanos</h1>
-        <section>
+        <h1 class="contact">Contactanos</h1>
+        <section class="contact">
             <article>
                 <form>
                     <label for="name">Nombre o Razón social</label>
@@ -35,14 +35,19 @@
                     <label for="consult">Escribí tu consulta</label>
                     <textarea name="consult" id="consult" cols="30" rows="10" placeholder="Quería consultar sobre..."
                         required></textarea>
-                    <input type="submit">
+                    <input type="submit" class="contact-submit">
                 </form>
             </article>
-            <article>
-                <h2>Teléfono</h2>
-                <p>(11) 5466 - 2353</p>
-                <h2>Teléfono urgencias</h2>
-                <p>(11) 4888 - 9020</p>
+            <article class="contact-form-aside">
+                <img src="./contact-form.jpg" alt="">
+                <div class="contact-tel">
+                    <strong>Teléfono</strong>
+                    <span>(11) 5466 - 2353</span>
+                </div>
+                <div class="contact-tel">
+                    <strong>Teléfono urgencias</strong>
+                    <span>(11) 4888 - 9020</span>
+                </div>
             </article>
         </section>
     </main>

@@ -79,27 +79,154 @@ h2.hero-title {
     object-fit: cover;
 }
 
-section {
+section.home {
     text-align: center;
     margin-top: 30px;
 }
 
-section article {
+section.home article {
     display: inline-block;
     width: 25%;
     margin-left: 20px;
 }
 
-article img {
+section.home article img {
     width: 200px;
     height: 200px;
 }
 
-article h3 {
+section.home article h3 {
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
+
+/* -------------------------------------------------------- */
+/* SERVICIOS */
+/* -------------------------------------------------------- */
+
+.services {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+section.services p,
+section.services h3 {
+    margin-top: 10px;
+}
+
+/* -------------------------------------------------------- */
+/* EXPERIENCIAS */
+/* -------------------------------------------------------- */
+
+.experiences {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.experiences article {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.experiences article img {
+    border-radius: 20px;
+    height: 200px;
+    width: 300px;
+    object-fit: contain;
+    margin-top: 10px;
+}
+
+.experiences article h3 {
+    margin-top: 10px;
+}
+
+.experiences iframe {
+    border-radius: 20px;
+}
+
+article.references {
+    height: 350px;
+    width: 300px;
+}
+
+article.references img {
+    border-radius: 50%;
+    width: 75%;
+    margin-left: 12.5%;
+}
+
+/* -------------------------------------------------------- */
+/* NOSOTROS */
+/* -------------------------------------------------------- */
+
+.about-us {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.about-us p,
+.about-us h2 {
+    margin-top: 10px;
+}
+
+/* -------------------------------------------------------- */
+/* CONTACTO */
+/* -------------------------------------------------------- */
+
+.contact {
+    margin-left: 6.25%;
+    margin-right: 6.25%;
+    margin-top: 20px;
+}
+
+section.contact {
+    background-color: antiquewhite;
+    height: 440px;
+    padding-top: 30px;
+    padding-left: 50px;
+}
+
+.contact article {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.contact form input,
+.contact form textarea,
+.contact form label {
+    display: block;
+    margin-top: 5px;
+    width: 250px;
+    border: none;
+}
+
+.contact img {
+    width: 600px;
+    height: 310px;
+    display: block;
+}
+
+article.contact-form-aside {
+    margin-left: 50px;
+}
+
+div.contact-tel {
+    display: inline-block;
+    width: 300px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+input.contact-submit {
+    background-color: beige;
+    border: 1px solid rgb(178, 176, 176) !important;
+    cursor: pointer;
+}
+
+.contact textarea {
+    resize: none;
+}
 
 /* Footer */
 
